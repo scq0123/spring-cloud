@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: eurekaServer
+  activemq:
+    broker-url:
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+
